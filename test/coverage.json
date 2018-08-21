@@ -1,0 +1,532 @@
+{
+  ".\\bin\\Debug\\netcoreapp2.1\\Model.dll": {
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\src\\Model\\ArmazenadorDeCurso.cs": {
+      "Model.ArmazenadorDeCurso": {
+        "System.Void Model.ArmazenadorDeCurso::Armazenar(Model.CursoDto)": {
+          "Lines": {
+            "21": 3,
+            "22": 3,
+            "24": 3,
+            "25": 1,
+            "26": 1,
+            "29": 2,
+            "30": 1,
+            "31": 1,
+            "35": 1,
+            "36": 1,
+            "38": 1,
+            "39": 1
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 25,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 29,
+              "Offset": 59,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 59,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Model.ArmazenadorDeCurso::.ctor(Model.ICursoRepositorio)": {
+          "Lines": {
+            "15": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3
+          },
+          "Branches": []
+        }
+      },
+      "Model.CursoDto": {
+        "System.String Model.CursoDto::get_Nome()": {
+          "Lines": {
+            "44": 11
+          },
+          "Branches": []
+        },
+        "System.String Model.CursoDto::get_Descricao()": {
+          "Lines": {
+            "45": 4
+          },
+          "Branches": []
+        },
+        "System.Int32 Model.CursoDto::get_CargaHoraria()": {
+          "Lines": {
+            "46": 4
+          },
+          "Branches": []
+        },
+        "System.String Model.CursoDto::get_PublicoAlvo()": {
+          "Lines": {
+            "47": 6
+          },
+          "Branches": []
+        },
+        "System.Double Model.CursoDto::get_Valor()": {
+          "Lines": {
+            "48": 4
+          },
+          "Branches": []
+        },
+        "System.Boolean Model.CursoDto::compara(Model.Curso,Model.CursoDto)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 18,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 37,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 51,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\src\\Model\\Curso.cs": {
+      "Model.Curso": {
+        "System.String Model.Curso::get_Nome()": {
+          "Lines": {
+            "26": 5
+          },
+          "Branches": []
+        },
+        "System.Int32 Model.Curso::get_CargaHoraria()": {
+          "Lines": {
+            "27": 4
+          },
+          "Branches": []
+        },
+        "Model.PublicoAlvo Model.Curso::get_PublicoAlvo()": {
+          "Lines": {
+            "28": 4
+          },
+          "Branches": []
+        },
+        "System.Double Model.Curso::get_Valor()": {
+          "Lines": {
+            "29": 4
+          },
+          "Branches": []
+        },
+        "System.String Model.Curso::get_Descricao()": {
+          "Lines": {
+            "31": 4
+          },
+          "Branches": []
+        },
+        "System.Void Model.Curso::.ctor(System.String,System.String,System.Int32,Model.PublicoAlvo,System.Double)": {
+          "Lines": {
+            "7": 22,
+            "9": 13,
+            "10": 2,
+            "12": 12,
+            "13": 3,
+            "15": 9,
+            "16": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "24": 3
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 9,
+              "Offset": 16,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            },
+            {
+              "Line": 12,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 12,
+              "Offset": 36,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 6
+            },
+            {
+              "Line": 15,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 15,
+              "Offset": 65,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    }
+  },
+  ".\\bin\\Debug\\netcoreapp2.1\\test.dll": {
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\test\\obj\\Debug\\netcoreapp2.1\\test.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\test\\ArmazenadorDeCursoTest.cs": {
+      "test.ArmazenadorDeCursoTest": {
+        "System.Void test.ArmazenadorDeCursoTest::DeveAdicionarCurso()": {
+          "Lines": {
+            "34": 1,
+            "37": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "51": 1
+          },
+          "Branches": []
+        },
+        "System.Void test.ArmazenadorDeCursoTest::NaoDeveAdicionarCursoComMesmoNomeDeOutroJaSalvo()": {
+          "Lines": {
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "59": 2,
+            "60": 1,
+            "61": 1
+          },
+          "Branches": []
+        },
+        "System.Void test.ArmazenadorDeCursoTest::NaoDeveInformarPublicoAlvoInvalido()": {
+          "Lines": {
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "68": 2,
+            "69": 1,
+            "71": 1
+          },
+          "Branches": []
+        },
+        "System.Void test.ArmazenadorDeCursoTest::.ctor()": {
+          "Lines": {
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\test\\CursoTest.cs": {
+      "test.CursoTest": {
+        "System.Void test.CursoTest::Dispose()": {
+          "Lines": {
+            "37": 9,
+            "38": 9,
+            "39": 9
+          },
+          "Branches": []
+        },
+        "System.Void test.CursoTest::DeveCriarCurso()": {
+          "Lines": {
+            "43": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "55": 1,
+            "58": 1,
+            "59": 1
+          },
+          "Branches": []
+        },
+        "System.Void test.CursoTest::NaoDeveCursoTerUmNomeInvalido(System.String)": {
+          "Lines": {
+            "64": 2,
+            "66": 2,
+            "67": 4,
+            "68": 2
+          },
+          "Branches": []
+        },
+        "System.Void test.CursoTest::NaoDeveCursoTerUmaCargaHorariaMenorQue1(System.Int32)": {
+          "Lines": {
+            "74": 3,
+            "76": 3,
+            "77": 6,
+            "78": 3
+          },
+          "Branches": []
+        },
+        "System.Void test.CursoTest::NaoDeveCursoTerValorMenorQue1(System.Double)": {
+          "Lines": {
+            "84": 3,
+            "86": 3,
+            "87": 6,
+            "88": 3
+          },
+          "Branches": []
+        },
+        "System.Void test.CursoTest::.ctor(Xunit.Abstractions.ITestOutputHelper)": {
+          "Lines": {
+            "22": 18,
+            "23": 9,
+            "24": 9,
+            "25": 9,
+            "27": 9,
+            "28": 9,
+            "29": 9,
+            "30": 9,
+            "31": 9,
+            "35": 9
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  ".\\bin\\Debug\\netcoreapp2.1\\_Builder.dll": {
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\src\\_Builder\\CursoBuilder.cs": {
+      "_Builder.CursoBuilder": {
+        "_Builder.CursoBuilder _Builder.CursoBuilder::Novo()": {
+          "Lines": {
+            "14": 9,
+            "15": 9,
+            "16": 9
+          },
+          "Branches": []
+        },
+        "_Builder.CursoBuilder _Builder.CursoBuilder::ComNome(System.String)": {
+          "Lines": {
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3
+          },
+          "Branches": []
+        },
+        "_Builder.CursoBuilder _Builder.CursoBuilder::ComDescricao(System.String)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "_Builder.CursoBuilder _Builder.CursoBuilder::ComCargaHoraria(System.Int32)": {
+          "Lines": {
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3
+          },
+          "Branches": []
+        },
+        "_Builder.CursoBuilder _Builder.CursoBuilder::ComValor(System.Double)": {
+          "Lines": {
+            "32": 3,
+            "33": 3,
+            "34": 3,
+            "35": 3
+          },
+          "Branches": []
+        },
+        "_Builder.CursoBuilder _Builder.CursoBuilder::ComPublicoAlvo(Model.PublicoAlvo)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "Model.Curso _Builder.CursoBuilder::Build()": {
+          "Lines": {
+            "41": 9,
+            "42": 9,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Void _Builder.CursoBuilder::.ctor()": {
+          "Lines": {
+            "8": 9,
+            "9": 9,
+            "10": 9,
+            "11": 9,
+            "12": 9
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  ".\\bin\\Debug\\netcoreapp2.1\\_Util.dll": {
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\src\\_Util\\obj\\Debug\\netcoreapp2.1\\_Util.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\src\\_Util\\AssertExtension.cs": {
+      "_Util.AssertExtension": {
+        "System.Void _Util.AssertExtension::ComMensagem(System.ArgumentException,System.String)": {
+          "Lines": {
+            "8": 10,
+            "9": 20,
+            "10": 10,
+            "11": 10,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 10
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 10
+            },
+            {
+              "Line": 9,
+              "Offset": 15,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ycamargo\\Desktop\\CursoOnline2\\src\\_Util\\UnitTest1.cs": {
+      "_Util.UnitTest1": {
+        "System.Void _Util.UnitTest1::Test1()": {
+          "Lines": {
+            "10": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

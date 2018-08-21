@@ -1,0 +1,88 @@
+# This is a simple gitlab continuous integration example project (compatible with the shared runner provided on gitlab.com)
+# using the official debian linux based dotnet docker image to build a .NET Core project.
+#
+# MyProject.sln
+#   MyProject\
+#      MyProject.csproj (console application)
+#   MyProject.Test\
+#      MyProject.Test.csproj (test library)
+#
+# Please find the full example project here:
+# https://gitlab.com/tobiaskoch/gitlab-ci-example-dotnetcore
+
+# see https://hub.docker.com/r/microsoft/dotnet/
+#blabla
+
+image: microsoft/dotnet:2.1-sdk
+
+stages:
+  - build
+  - test
+  - coverage
+  - report
+  - deploy
+
+
+build:
+  stage: build
+  tags:
+    - tag_teste
+  variables:
+    build_path1: "src/_Builder/"
+    build_path2: "src/Model/"
+    build_path3: "src/_Util/"
+    build_path4: "test/"
+  script:
+    - "cd $build_path1"
+    - "dotnet build"
+    - "cd ../.. && cd $build_path2"
+    - "dotnet build"
+    - "cd ../.. && cd $build_path3"
+    - "dotnet build"
+    - "cd ../.. && cd $build_path4"
+    - "dotnet build"
+
+
+release:
+  stage: deploy
+  tags:
+    - tag_teste
+  only:
+    - master
+  artifacts:
+    paths:
+      - publish/
+  script:
+    - echo -e "\n Deploy da aplicação. \n"
+    # The output path is relative to the position of the csproj-file
+    - dotnet publish -c Release -o ../publish src/Model/Model.csproj
+    - dotnet publish -c Release -o ../publish src/_Builder/_Builder.csproj
+    - dotnet publish -c Release -o ../publish src/_Util/_Util.csproj
+    
+unit-tests:
+  stage: test
+  tags:
+    - tag_teste_paralelo
+  script:
+    - echo -e "\n Teste unitário. \n"
+    - dotnet test test/test.csproj
+
+coverage_generate:
+  stage: coverage
+  tags:
+    - tag_teste_paralelo
+  script:
+    - echo -e "\n Análise de cobertura de código. \n"
+    - "cd test"
+    - "dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover"
+    - "cd .."
+
+coverage_report:
+  stage: report
+  tags:
+    - tag_teste_paralelo
+  script:
+    - echo -e "\n Gerando relatório de cobertura \n"
+    - "cd test"
+    - "tools/reportgenerator \"-reports:coverage.opencover.xml\" \"-targetdir:reports\""
+    - "cd .."

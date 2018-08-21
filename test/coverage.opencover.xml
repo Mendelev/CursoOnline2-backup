@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="84" visitedSequencePoints="67" numBranchPoints="84" visitedBranchPoints="67" sequenceCoverage="0.798" branchCoverage="0.798" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="5" numClasses="7" visitedMethods="20" numMethods="25" />
+  <Modules>
+    <Module hash="41E022CD-E69A-49DF-A28B-3E716BB3E78C">
+      <ModulePath>C:\Users\ycamargo\Desktop\CursoOnline2\test\bin\Debug\netcoreapp2.1\Model.dll</ModulePath>
+      <ModuleTime>2018-08-09T08:22:59</ModuleTime>
+      <ModuleName>Model</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\ycamargo\Desktop\CursoOnline2\src\Model\ArmazenadorDeCurso.cs" />
+        <File uid="2" fullPath="C:\Users\ycamargo\Desktop\CursoOnline2\src\Model\Curso.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Model.ArmazenadorDeCurso</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Model.ArmazenadorDeCurso::Armazenar(Model.CursoDto)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="3" upsid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="22" ordinal="1" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="26" ordinal="4" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" upsid="29" ordinal="5" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="30" ordinal="6" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="31" ordinal="7" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="35" ordinal="8" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="36" ordinal="9" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="38" ordinal="10" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="39" ordinal="11" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" upsid="24" ordinal="0" path="0" offset="25" offsetend="27" sl="24" fileid="1" />
+                <BranchPoint vc="2" upsid="24" ordinal="1" path="1" offset="25" offsetend="39" sl="24" fileid="1" />
+                <BranchPoint vc="1" upsid="29" ordinal="2" path="0" offset="59" offsetend="61" sl="29" fileid="1" />
+                <BranchPoint vc="1" upsid="29" ordinal="3" path="1" offset="59" offsetend="73" sl="29" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="12" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="21" ec="1" el="39" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Model.ArmazenadorDeCurso::.ctor(Model.ICursoRepositorio)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="3" upsid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="15" ec="1" el="18" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="5" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0.625" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="5" numMethods="6" />
+          <FullName>Model.CursoDto</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Model.CursoDto::get_Nome()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="11" upsid="44" ordinal="0" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="44" ec="1" el="44" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Model.CursoDto::get_Descricao()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" upsid="45" ordinal="0" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="45" ec="1" el="45" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Model.CursoDto::get_CargaHoraria()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" upsid="46" ordinal="0" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="46" ec="1" el="46" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Model.CursoDto::get_PublicoAlvo()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="6" upsid="47" ordinal="0" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="47" ec="1" el="47" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Double Model.CursoDto::get_Valor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" upsid="48" ordinal="0" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="48" ec="1" el="48" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Model.CursoDto::compara(Model.Curso,Model.CursoDto)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="51" ordinal="0" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="52" ordinal="1" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="53" ordinal="2" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" upsid="52" ordinal="0" path="0" offset="18" offsetend="20" sl="52" fileid="1" />
+                <BranchPoint vc="0" upsid="52" ordinal="2" path="0" offset="37" offsetend="39" sl="52" fileid="1" />
+                <BranchPoint vc="0" upsid="52" ordinal="4" path="0" offset="51" offsetend="53" sl="52" fileid="1" />
+                <BranchPoint vc="0" upsid="52" ordinal="1" path="1" offset="18" offsetend="69" sl="52" fileid="1" />
+                <BranchPoint vc="0" upsid="52" ordinal="3" path="1" offset="37" offsetend="69" sl="52" fileid="1" />
+                <BranchPoint vc="0" upsid="52" ordinal="5" path="1" offset="51" offsetend="69" sl="52" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="51" ec="1" el="53" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>Model.Curso</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Model.Curso::get_Nome()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="5" upsid="26" ordinal="0" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="26" ec="1" el="26" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Model.Curso::get_CargaHoraria()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="4" upsid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="27" ec="1" el="27" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Model.PublicoAlvo Model.Curso::get_PublicoAlvo()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="4" upsid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="28" ec="1" el="28" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Double Model.Curso::get_Valor()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="4" upsid="29" ordinal="0" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="29" ec="1" el="29" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Model.Curso::get_Descricao()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="4" upsid="31" ordinal="0" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="31" ec="1" el="31" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="13" visitedSequencePoints="13" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Model.Curso::.ctor(System.String,System.String,System.Int32,Model.PublicoAlvo,System.Double)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="22" upsid="7" ordinal="0" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="13" upsid="9" ordinal="1" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" upsid="10" ordinal="2" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="12" upsid="12" ordinal="3" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" upsid="13" ordinal="4" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="9" upsid="15" ordinal="5" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" upsid="16" ordinal="6" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" upsid="18" ordinal="7" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" upsid="19" ordinal="8" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" upsid="20" ordinal="9" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" upsid="21" ordinal="10" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" upsid="22" ordinal="11" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" upsid="24" ordinal="12" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" upsid="9" ordinal="0" path="0" offset="16" offsetend="18" sl="9" fileid="2" />
+                <BranchPoint vc="9" upsid="9" ordinal="1" path="1" offset="16" offsetend="30" sl="9" fileid="2" />
+                <BranchPoint vc="3" upsid="12" ordinal="2" path="0" offset="36" offsetend="38" sl="12" fileid="2" />
+                <BranchPoint vc="6" upsid="12" ordinal="3" path="1" offset="36" offsetend="50" sl="12" fileid="2" />
+                <BranchPoint vc="3" upsid="15" ordinal="4" path="0" offset="65" offsetend="67" sl="15" fileid="2" />
+                <BranchPoint vc="3" upsid="15" ordinal="5" path="1" offset="65" offsetend="79" sl="15" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="13" upsid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="7" ec="1" el="24" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="60A92168-B32F-478C-BC75-7371DDEF5427">
+      <ModulePath>C:\Users\ycamargo\Desktop\CursoOnline2\test\bin\Debug\netcoreapp2.1\_Builder.dll</ModulePath>
+      <ModuleTime>2018-08-09T08:22:59</ModuleTime>
+      <ModuleName>_Builder</ModuleName>
+      <Files>
+        <File uid="3" fullPath="C:\Users\ycamargo\Desktop\CursoOnline2\src\_Builder\CursoBuilder.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="31" visitedSequencePoints="23" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.742" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="8" />
+          <FullName>_Builder.CursoBuilder</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>_Builder.CursoBuilder _Builder.CursoBuilder::Novo()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="9" upsid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="9" upsid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="9" upsid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="14" ec="1" el="16" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>_Builder.CursoBuilder _Builder.CursoBuilder::ComNome(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" upsid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="18" ordinal="1" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="19" ordinal="2" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="20" ordinal="3" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="17" ec="1" el="20" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>_Builder.CursoBuilder _Builder.CursoBuilder::ComDescricao(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="22" ec="1" el="25" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>_Builder.CursoBuilder _Builder.CursoBuilder::ComCargaHoraria(System.Int32)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" upsid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="28" ordinal="1" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="29" ordinal="2" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="30" ordinal="3" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="27" ec="1" el="30" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>_Builder.CursoBuilder _Builder.CursoBuilder::ComValor(System.Double)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" upsid="32" ordinal="0" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="33" ordinal="1" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="34" ordinal="2" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" upsid="35" ordinal="3" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="32" ec="1" el="35" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>_Builder.CursoBuilder _Builder.CursoBuilder::ComPublicoAlvo(Model.PublicoAlvo)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="37" ordinal="0" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="38" ordinal="1" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="39" ordinal="2" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="40" ordinal="3" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="37" ec="1" el="40" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Model.Curso _Builder.CursoBuilder::Build()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="9" upsid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="9" upsid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="43" ordinal="2" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="41" ec="1" el="43" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void _Builder.CursoBuilder::.ctor()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="9" upsid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="9" upsid="9" ordinal="1" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="9" upsid="10" ordinal="2" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="9" upsid="11" ordinal="3" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="9" upsid="12" ordinal="4" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" upsid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="8" ec="1" el="12" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="81DA98B2-3DC3-4373-B746-7B8119CC6876">
+      <ModulePath>C:\Users\ycamargo\Desktop\CursoOnline2\test\bin\Debug\netcoreapp2.1\_Util.dll</ModulePath>
+      <ModuleTime>2018-08-09T08:22:59</ModuleTime>
+      <ModuleName>_Util</ModuleName>
+      <Files>
+        <File uid="4" fullPath="C:\Users\ycamargo\Desktop\CursoOnline2\src\_Util\obj\Debug\netcoreapp2.1\_Util.Program.cs" />
+        <File uid="5" fullPath="C:\Users\ycamargo\Desktop\CursoOnline2\src\_Util\AssertExtension.cs" />
+        <File uid="6" fullPath="C:\Users\ycamargo\Desktop\CursoOnline2\src\_Util\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AutoGeneratedProgram</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AutoGeneratedProgram::Main(System.String[])</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="4" ordinal="0" sl="4" sc="1" el="4" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="4" ec="1" el="4" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="0.625" branchCoverage="0.5" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>_Util.AssertExtension</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.625" branchCoverage="0.5" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="0.625" branchCoverage="0.5" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void _Util.AssertExtension::ComMensagem(System.ArgumentException,System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="10" upsid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="20" upsid="9" ordinal="1" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="10" upsid="10" ordinal="2" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="10" upsid="11" ordinal="3" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" upsid="12" ordinal="4" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" upsid="13" ordinal="5" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" upsid="14" ordinal="6" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="10" upsid="15" ordinal="7" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="10" upsid="9" ordinal="0" path="0" offset="15" offsetend="17" sl="9" fileid="5" />
+                <BranchPoint vc="0" upsid="9" ordinal="1" path="1" offset="15" offsetend="28" sl="9" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="5" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="15" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>_Util.UnitTest1</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void _Util.UnitTest1::Test1()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" upsid="12" ordinal="1" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="10" ec="1" el="12" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
